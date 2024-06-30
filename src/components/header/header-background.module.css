@@ -1,0 +1,7 @@
+.bg{
+    width:100%;
+    background: #333;
+    position: absolute;
+    z-index: -1;
+    height: 150px;
+}

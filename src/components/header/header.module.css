@@ -1,0 +1,39 @@
+.headerContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1152px;
+  margin: auto;
+  height:150px;
+  padding:0 25px;
+}
+
+.headerContainer img{
+  width:120px;
+  height:120px;
+}
+
+.headerContainer a{
+  color:white;
+}
+
+.headerContainer .active{
+  color:white;
+}
+
+.headerContainer ul{
+  display:flex;
+  gap:2.4rem;
+  margin:0;
+  padding:0;
+  list-style: none;
+}
+
+@media (max-width:768px){
+  .headerContainer{
+    max-width:680px;
+  }
+  .headerContainer ul{
+    gap:1.6rem;
+  }
+}

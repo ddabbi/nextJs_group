@@ -1,0 +1,57 @@
+.header{
+  display: flex;
+  gap: 3rem;
+  margin: 3rm auto;
+  width: 90%;
+  max-width: 75rem;
+}
+
+.slideshow{
+  width: 40rem;
+  height: 25rem;
+}
+
+.hero{
+  color: #ddd6cb;
+  font-size: 1.5rem;
+}
+
+.hero h1{
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  background: linear-gradient(90deg, #91DDCF, #F19ED2);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.cta{
+  display: flex;
+  gap: 1rem;
+  font-size: 1.5rem;
+}
+
+/* Link 도 a태그에 속함 */
+.cta a{
+  color: white;
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background: linear-gradient(90deg, #91DDCF, #F19ED2);
+}
+
+.cta a:first-child{
+  background: transparent;
+  color: #F7F9F2;
+  padding-left: 0;
+}
+
+.section{
+  color: white;
+  font-size: 1.5rem;
+  max-width: 50rem;
+  text-align: center;
+  width: 90%;
+  margin: auto;
+}
